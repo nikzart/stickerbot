@@ -5,6 +5,6 @@ check_task:
   node_modules_cache:
     folder: node_modules
     
-task:
-  execute_script: npm install
-  execute_script: npm start
+execute:
+ script: npm install
+ script: npm start
