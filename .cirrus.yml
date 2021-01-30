@@ -6,5 +6,5 @@ check_task:
     folder: node_modules
     
 task:
-  script: npm install
-  script: npm start
+  execute_script: npm install
+  execute_script: npm start
